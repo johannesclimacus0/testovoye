@@ -9,8 +9,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Referral extends Model
 {
-    use HasFactory;
-
     public const PROGRAM_MASTER_INVITE = 'master_invite';
     public const PROGRAM_INFLUENCER = 'influencer';
 

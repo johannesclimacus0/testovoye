@@ -51,6 +51,6 @@ class DatabaseSeeder extends Seeder
         Payment::create(['master_id' => $dasha->id, 'amount' => 2000, 'type' => Payment::TYPE_CARD]);
 
         // Лена пришла без реферального кода.
-        Payment::create(['master_id' => $lena->id, 'amount' => 3000, 'type' => Payment::TYPE_SBP]);
+        //Payment::create(['master_id' => $lena->id, 'amount' => 3000, 'type' => Payment::TYPE_SBP]);
     }
 }

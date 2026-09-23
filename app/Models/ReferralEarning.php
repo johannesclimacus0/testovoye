@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class ReferralEarning extends Model
 {
-    use HasFactory;
 
     public const STATUS_PENDING = 'pending';
     public const STATUS_PAID = 'paid';
